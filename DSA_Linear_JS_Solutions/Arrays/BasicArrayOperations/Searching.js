@@ -5,4 +5,3 @@ console.log(fruits.indexOf('banana')); // Output: 1
 
 // Check existence
 console.log(fruits.includes('cherry')); // Output: true
-  
