@@ -52,3 +52,14 @@ console.log(isPalindrome(head1)); // Output: true
 
 let head2 = createLinkedList([1, 2]);
 console.log(isPalindrome(head2)); // Output: false
+
+
+// Complexity Analysis:
+
+// Time Complexity: O(n)
+// Finding the middle takes O(n/2) = O(n)
+// Reversing the second half takes O(n/2) = O(n)
+// Comparing takes O(n/2) = O(n)
+// Overall: O(n)
+// Space Complexity: O(1)
+// We only use a few pointers, no extra memory apart from the input list.
