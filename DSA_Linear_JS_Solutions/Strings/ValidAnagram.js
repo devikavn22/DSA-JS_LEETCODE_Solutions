@@ -42,4 +42,5 @@ Time Complexity of isAnagram Function:
 The function loops through s once → O(N).
 The .every() method checks 26 values → O(26) ≈ O(1).
 Overall, the function runs in O(N) time complexity, which is efficient.
+Space Complexity: O(1)
 */
